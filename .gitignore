@@ -1,0 +1,49 @@
+# Java build output
+target/
+build/
+out/
+bin/
+.gradle/
+*.class
+
+# IDE metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Temporary files, logs, and operating system metadata
+tmp/
+temp/
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+/main/resources/application.properties
+/main/resources/application-local.properties
+/main/resources/application-secrets.properties
